@@ -1,10 +1,8 @@
-package com.almasb.topn.example
+package example
 
 import com.almasb.topn.DataElement
 
 /**
- *
- *
  * @author Almas Baimagambetov (almaslvl@gmail.com)
  */
 data class Word(val title: String, val value: Int) : DataElement {
